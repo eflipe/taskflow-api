@@ -1,6 +1,37 @@
+# Entorno virtual
 taskflow_venv/
+.venv/
+
+# Bytecode de Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+
+# Variables de entorno
 .env
-.pytest_cache/
+.env.*
+!.env.example
+
+# Bases de datos locales (Módulo 4)
 *.db
+*.sqlite
+*.sqlite3
+
+# Tests (Módulo 6)
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
